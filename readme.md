@@ -1,6 +1,8 @@
 ## Hotjar to Slack Notifier
 This script was created to run periodically on my machine, with the purpose of forwarding the latest Hotjar responses to a Slack channel.
 
+![Sample Slack post from the Hotjar integration](https://i.imgur.com/WiGN7wX.png)
+
 ### Setup Instructions
 1. `npm install hotjar-slack-notifier` or `yarn add hotjar-slack-notifier`
 2. Create a JSON storage endpoint that will store data in the shape of `{ lastIndex: 0 }`
